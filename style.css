@@ -1,6 +1,10 @@
 body{
         background-color: black;
         color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     li{
@@ -34,7 +38,11 @@ body{
     }
 
     #acessivel{
-        display: fixed;
+        position: fixed;
         left: 20px;
         bottom: 20px;
+    }
+
+    hr{
+        width: 60%;
     }
